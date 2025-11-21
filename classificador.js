@@ -14,7 +14,7 @@ function classificadorDeNivel (name, xp) {
     rank = "Ascendente";
   } else if ( xp > 9000 && xp < 10001) {
     rank = "Imortal";
-  } else if ( xp >= 100001) {
+  } else if ( xp >= 10001) {
     rank = "Radiante";
   } else {
     console.erro("não existe xp menor que zero");
